@@ -116,7 +116,6 @@ const App = () => {
       download(dataUrl, `${Date.now()}.png`);
     });
   };
-
   return (
     <div className="container">
       {image ? (
