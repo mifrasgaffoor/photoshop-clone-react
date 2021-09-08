@@ -10,5 +10,4 @@ const SidebarItem = ({ name, active, handleClick }) => {
     </button>
   );
 };
-
 export default SidebarItem;
