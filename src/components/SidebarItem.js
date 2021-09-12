@@ -5,8 +5,7 @@ const SidebarItem = ({ name, active, handleClick }) => {
     <button
       className={`sidebar-item  ${active ? "active" : null}`}
       onClick={handleClick}
-    >
-      {name}
+    >{name}
     </button>
   );
 };
